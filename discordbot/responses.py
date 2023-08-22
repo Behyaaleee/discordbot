@@ -75,7 +75,7 @@ def get_response(message: str) -> str:
 ##INTERACTIVE ??
 
     if p_message[:8] == 'cuss out':
-        return '**** you'+ p_message[8:]+ '!'
+        return '---- you'+ p_message[8:]+ '!'
 
     if p_message.startswith('repeat after me'):
         return p_message[len('repeat after me'):].strip()
